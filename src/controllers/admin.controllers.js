@@ -17,10 +17,8 @@ adminCtrl.getHome= async(req, res)=>{
             <img src="https://www.medellin.gov.co/es/wp-content/uploads/2022/08/biodiversidad-y-entretenimiento.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
             <h5>Service catastro </h5>
-    
           </div>
             </div>
-       
             </div>
           <div class="carousel-item" data-bs-interval="3000">
             <img src="https://www.medellin.gov.co/es/wp-content/uploads/2021/11/panoramica-nocturna-medellin.jpg" class="d-block w-100" alt="...">
@@ -46,5 +44,8 @@ adminCtrl.getHome= async(req, res)=>{
 
     `)
 }
+
+
+
 
 module.exports = adminCtrl;

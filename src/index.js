@@ -5,7 +5,7 @@ const morgan = require('morgan');
 app.use(morgan('dev'));
 
 app.use(require('./routes/index.routes'));
-
+app.use(require('./routes/auth.routes'))
 
 
 async function main()
