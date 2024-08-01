@@ -6,6 +6,7 @@ app.use(morgan('dev'));
 
 app.use(require('./routes/index.routes'));
 app.use(require('./routes/auth.routes'))
+app.use(require('./routes/info.routes'))
 
 
 async function main()
