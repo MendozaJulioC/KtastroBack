@@ -5,8 +5,6 @@ const infoCtrl = require('../controllers/info.controllers')
 inforouter.get('/api/dap/hitos',infoCtrl.getHitosMain)
 
 
-
-
 inforouter.get('/api/dap/hitos',infoCtrl.getHitosMain)
         .get('/api/dap/hitos/mes/:mes', infoCtrl.getHitosMes)
         .get('/api/dap/hitos/dependencias/:cod_dep', infoCtrl.getHitoDep)
