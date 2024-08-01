@@ -1,5 +1,5 @@
 const { dblocal } = require('../config/dbConfig');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const authRegisterCtrl = {};
 
@@ -37,8 +37,6 @@ authRegisterCtrl.getEmail = async(req, res)=>{
       res.status(403).json({message: "Error consulta email ",error, success: false})
     }
   }
-
-
 
   authRegisterCtrl.getGmail= async(req, res)=>{
     try {
